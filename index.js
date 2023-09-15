@@ -4,7 +4,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {createRequire} from 'node:module';
 import {pathToFileURL} from 'node:url';
-import findCacheDir from 'find-cache-dir';
+import findCacheDir from 'npm:find-cache-dir';
 import {bundleWasm} from './lib/bundle-wasm.js';
 import {collectWasmImports} from './lib/collect-wasm-imports.js';
 import wrapWasmCode from './lib/wrap-wasm-code.js';
